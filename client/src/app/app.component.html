@@ -1,6 +1,8 @@
-<h1>Nasa demo app</h1>
-<p>working to upgrade knowledge of fullstack apps</p>
+<button mat-button [matMenuTriggerFor]="belowMenu">Pictures</button>
+<mat-menu #belowMenu="matMenu" yPosition="above">
+  <button mat-menu-item>Go to Pictures</button>
+</mat-menu>
 
 <section class="main">
-
+    <app-welcome></app-welcome>
 </section>
